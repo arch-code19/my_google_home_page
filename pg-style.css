@@ -1,0 +1,155 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 5% 5% auto 4% 4% 3% 8%;
+    grid-template-areas:
+    "about store . gmail images apps dp"
+     ;
+    font-size: 13px; 
+    padding:25px;
+    align-items:center;
+   }
+
+.footer{
+    display:grid;
+    grid-template-columns: 6% 6% 12% auto 5% 5% 5% ;
+    grid-template-areas:
+      "advertising business how-search-works . privacy terms settings"
+     ;
+     background-color: #f2f2f2;
+     font-size: 13px; 
+     position:fixed;
+     left:0;
+     bottom:0;
+     width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.about{
+  grid-area:about;
+}
+
+.store{
+    grid-area:store;
+  }
+
+  .gmail{
+    grid-area:gmail;
+    align-self:center;
+  } 
+
+  .images{
+    grid-area:images;
+    align-self:center;
+  }
+
+  .apps{
+    width:45px;
+    height:45px;  
+    grid-area:apps;
+    padding-right: 5px;
+    align-self:center;
+    justify-self: center;
+  }
+
+  .dp{
+    grid-area:dp;
+  }  
+
+  #dp_link{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: #f2f2f2;
+    background-color: #4285f4;
+    padding: 10px;
+  }
+
+  .advertising{
+    grid-area:advertising;
+
+  }
+  
+  .business{
+    grid-area:business;
+
+  }
+
+  .how-search-works{
+    grid-area:how-search-works;
+  }
+
+  .privacy{
+    grid-area:privacy;
+  }
+
+  .terms{
+    grid-area:terms;
+  }
+
+  .settings{
+    grid-area:settings;
+  }
+
+  .header a, .footer a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #609;
+}
+
+#search{
+    height: 34px;
+    width: 554px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border:solid 1px rgb(#343434);
+    padding:5px;    
+}
+
+.FPdoLc {
+    padding-top: 18px;
+    position: absolute;
+    top: 53px;
+    width:571px;
+    height:70px;
+    z-index: 0;
+}
+
+.gNO89b {
+   margin-top:30px;
+   padding:8px;
+}
+
+#gbqfbb{
+    margin-top:30px;
+    padding:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
