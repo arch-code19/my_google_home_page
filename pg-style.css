@@ -111,10 +111,6 @@ a {
 
 }
 
-a:visited {
-    color: #609;
-}
-
 #search{
     height: 34px;
     width: 554px;
@@ -141,6 +137,11 @@ a:visited {
 #gbqfbb{
     margin-top:30px;
     padding:8px;
+}
+
+#lga{
+  height:233px;
+  margin-top:89px;
 }
 
 
